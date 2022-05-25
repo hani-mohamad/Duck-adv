@@ -15,7 +15,7 @@ public class move: MonoBehaviour
     void Update()
     {
         Movement.x = Input.GetAxisRaw("Horizontal"); // storing the x in the vector2
-        Movement.y = Input.GetAxisRaw("Vertical"); // storing the y in the vector2
+       
     }
 
     void FixedUpdate()
