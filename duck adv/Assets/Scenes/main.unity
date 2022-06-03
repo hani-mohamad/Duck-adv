@@ -368,10 +368,11 @@ MonoBehaviour:
   speed: 5
   jumpSpeed: 4
   groundCheck: {fileID: 913775094}
-  groundCheckRadius: 0
+  groundCheckRadius: 0.91
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  duckSpriteRender: {fileID: 913775093}
 --- !u!212 &913775093
 SpriteRenderer:
   m_ObjectHideFlags: 0
