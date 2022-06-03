@@ -17,6 +17,7 @@ public class movment : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius;
     public LayerMask groundLayer;
+    public SpriteRenderer duckSpriteRender;
     private bool isTouchingGround;
     // Start is called before the first frame update
     void Start()
@@ -33,10 +34,12 @@ public class movment : MonoBehaviour
         if (direction > 0f)
         {
             player.velocity = new Vector2(direction * speed, player.velocity.y);
+            duckSpriteRender.flipX = false;
         }
         else if (direction < 0f)
         {
             player.velocity = new Vector2(direction * speed, player.velocity.y);
+            duckSpriteRender.flipX = true;
         }
         else
         {
