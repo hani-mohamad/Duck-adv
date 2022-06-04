@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class cam : MonoBehaviour
 {
+    public Vector3 player;
+    public Transform playerpos;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +16,6 @@ public class cam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+    
     }
 }

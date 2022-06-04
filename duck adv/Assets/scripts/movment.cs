@@ -50,6 +50,6 @@ public class movment : MonoBehaviour
         {
             player.velocity = new Vector2(player.velocity.x, jumpSpeed);
         }
-
+        
     }
 }
